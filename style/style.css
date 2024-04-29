@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  font-family: Vazirmatn;
+  direction: rtl;
+  text-decoration: none;
+}
+body {
+  width: 75%;
+  height: auto;
+  background-color: white;
+  margin-right: 10%;
+  margin-top: 0;
+}
+header {
+  display: flex;
+  background-color: rgb(224, 203, 224);
+}
+.headerlogo {
+  padding: 0.5% 0.5%;
+}
+header a {
+  color: rgb(97, 40, 97);
+  text-decoration: none;
+  padding: 15px 20px;
+  font-size: 20px;
+  margin-right: 1%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 500px;
+  margin-top: 30px;
+}
+.rightbox {
+  flex: 43%;
+  background-color: rgb(225, 234, 243);
+}
+.colorfullbox {
+  background-color: rgb(97, 40, 97);
+  color: rgb(255, 255, 255);
+  padding: 15px 20px;
+}
+.underbox {
+  display: flex;
+  padding-right: 40px;
+  padding-top: 100px;
+  align-content: center;
+}
+.underbox a {
+  flex: 30%;
+  text-decoration: none;
+}
+
+.leftbox {
+  display: flex;
+  flex-direction: row;
+}
+.leftbox > div {
+  padding: 5px;
+  margin: 10px;
+  width: 300px;
+}
+.leftbox p {
+  padding: 18px;
+}
+.news {
+  background-color: rgb(224, 226, 228);
+  padding: 2%;
+  display: flex;
+  text-align: right;
+}
+.newstext {
+  padding: 10px;
+  flex: 25%;
+}
+.newslist {
+  flex: 25%;
+}
+.fakeimage {
+  background-color: rgb(211, 208, 208);
+}
+.buisnesscardflex {
+  display: flex;
+  background-color: rgb(224, 226, 228);
+}
+.buisnesscard {
+  padding: 10px;
+  text-align: center;
+  flex: 33%;
+}
+H4 {
+  text-align: center;
+  margin-right: 2%;
+}
+.investbuisnesscardflex {
+  margin-bottom: 10%;
+  display: flex;
+  height: 220px;
+  width: 100%;
+}
+.investbuisnesscard {
+  padding: 5%;
+  text-align: center;
+}
+.investbuisnesscard img{
+  width: 90px;
+  height:90px;
+  padding-right: 6%;
+  border-right: 1px solid ;
+}
+.investbuisnesscard h5{
+  float: right;
+  margin: 10% 1%;
+  padding-right: 32%;
+
+}
+.investbuisnesscard hr{
+  width: 70%;
+}
+button {
+  display: block;
+  text-align: center;
+  margin-top: 2%;
+  margin-right: 44.5%;
+  width: 150px;
+  height: 40px;
+  transition: width 1s, height 1s;
+}
+button:hover {
+  width: 155px;
+  height: 42px;
+  background-color: rgb(236, 16, 16);
+}
+.socialmediaicon {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  
+  
+}
+.socialmediaicon div{
+  padding: 10px;
+}
+footer {
+  display: flex;
+  background-color: rgb(224, 226, 228);
+  text-align: center;
+  height: 250px;
+  padding-top: 125px;
+}
+footer ul{
+  float: left;
+  padding-left: 5%;
+  
+}
